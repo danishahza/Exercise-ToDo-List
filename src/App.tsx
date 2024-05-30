@@ -16,7 +16,10 @@ function App() {
       }}
     >
       <Box>
-        <Text color= "white">
+        <Text 
+          color= "white"
+          fontWeight= "bold"
+        >
           Chores ToDo List
         </Text>
       </Box>
@@ -161,7 +164,12 @@ function App() {
     </Box>
     <Box>
       <Box>
-        <Text color= "white"> Done : 0</Text>
+        <Text 
+          color= "white"
+          fontWeight= "bold"
+        > 
+          Done : 0
+        </Text>
       </Box>
       <Box>
         <Text 
@@ -170,7 +178,7 @@ function App() {
         > Add todo</Text>
       </Box>
       <Input size='md' />
-      <Button colorScheme='blue' alignContent="flex-start">Add Task</Button>
+      <Button colorScheme='blue' alignContent= "flex-start">Add Task</Button>
 
     </Box>
    </Container>
