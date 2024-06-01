@@ -1,11 +1,9 @@
-import { useState } from 'react'
+import {} from 'react'
 import { Container, Box, Text, Checkbox, Stack, Input, Button } from '@chakra-ui/react';
 import { DeleteIcon } from '@chakra-ui/icons'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
    <Container p= "2em">
     <Box
@@ -52,7 +50,6 @@ function App() {
             borderColor= "#48bb78"
             iconColor= "#48bb78"
             spacing= "10"
-
             >
           </Checkbox>
           <Text 
@@ -75,7 +72,6 @@ function App() {
             borderColor= "#48bb78"
             iconColor= "#48bb78"
             spacing= "10"
-
             >
           </Checkbox>
           <Text 
@@ -98,7 +94,6 @@ function App() {
             borderColor= "#48bb78"
             iconColor= "#48bb78"
             spacing= "10"
-
             >
           </Checkbox>
           <Text 
@@ -121,7 +116,6 @@ function App() {
             borderColor= "#48bb78"
             iconColor= "#48bb78"
             spacing= "10"
-
             >
           </Checkbox>
           <Text 
@@ -144,7 +138,6 @@ function App() {
             borderColor= "#48bb78"
             iconColor= "#48bb78"
             spacing= "10"
-
             >
           </Checkbox>
           <Text 
